@@ -1,0 +1,90 @@
+---
+---
+<div class="search-container">
+  <form class="search-form" role="search">
+    <input 
+      type="search" 
+      class="search-input"
+      placeholder="Search articles..."
+      aria-label="Search articles"
+    />
+    <button type="submit" class="search-button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </form>
+</div>
+
+<style>
+  .search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+  }
+
+  .search-form {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    padding-right: 3rem;
+    border: 2px solid var(--text-secondary);
+    border-radius: 9999px;
+    background: var(--background-body);
+    color: var(--text-main);
+    font-size: 1rem;
+    transition: all 0.2s ease;
+  }
+
+  .search-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(84, 142, 155, 0.2);
+  }
+
+  .search-button {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease;
+  }
+
+  .search-button:hover {
+    color: var(--primary-color);
+  }
+
+  @media (max-width: 768px) {
+    .search-container {
+      margin: 0 1rem;
+    }
+  }
+</style>
+
+<script>
+  const form = document.querySelector('.search-form');
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const input = form.querySelector('input');
+    if (input?.value.trim()) {
+      // Implement search functionality here
+      console.log('Searching for:', input.value);
+    }
+  });
+</script>

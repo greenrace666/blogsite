@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- A simplified protein structure visualization -->
+  <g fill="none" stroke="#548e9b" stroke-width="2">
+    <path d="M400 100 C 500 150, 300 250, 400 300 S 500 450, 400 500"/>
+    <path d="M200 200 C 300 250, 400 150, 500 200 S 600 350, 700 300"/>
+    <path d="M100 300 C 200 350, 300 250, 400 300 S 500 450, 600 400"/>
+  </g>
+  <g fill="#548e9b">
+    <circle cx="400" cy="100" r="8"/>
+    <circle cx="400" cy="300" r="8"/>
+    <circle cx="400" cy="500" r="8"/>
+    <circle cx="200" cy="200" r="8"/>
+    <circle cx="500" cy="200" r="8"/>
+    <circle cx="700" cy="300" r="8"/>
+    <circle cx="100" cy="300" r="8"/>
+    <circle cx="600" cy="400" r="8"/>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'My Blog';
+const description = 'Welcome to my professional blog.';
+const permalink = Astro.site.href;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink}>
+  <div class="home-container">
+    <div class="home-content">
+      <h1>Welcome to my Blog</h1>
+      <div class="hero-image-container">
+        <picture>
+          <source srcset="/assets/protein-structure.webp" type="image/webp" />
+          <source srcset="/assets/protein-structure.png" type="image/png" />
+          <img 
+            src="/assets/protein-structure.png"
+            alt="3D visualization of protein molecular structure"
+            class="hero-image"
+            width="800"
+            height="600"
+            loading="eager"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .home-content {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--text-main);
+    font-family: var(--font-family-sans);
+    line-height: 1.2;
+  }
+
+  .hero-image-container {
+    margin: 2rem auto;
+    max-width: 800px;
+    position: relative;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: var(--background-body);
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    
+    .hero-image-container {
+      margin: 1.5rem auto;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+</style>

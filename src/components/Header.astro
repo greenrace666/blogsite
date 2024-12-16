@@ -1,0 +1,37 @@
+---
+import Logo from './Logo.astro';
+import Nav from './Nav.astro';
+import SearchBar from './SearchBar.astro';
+
+const { current = '' } = Astro.props;
+---
+
+<header>
+  <div class="header-content">
+    <Logo />
+    <SearchBar />
+    <Nav current={current} />
+  </div>
+</header>
+
+<style>
+  header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 1em 2em;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .header-content {
+      padding: 1em;
+    }
+  }
+</style>
