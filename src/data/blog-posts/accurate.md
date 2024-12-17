@@ -19,7 +19,7 @@ description: Chai1 on Modal H100
       background-color: #f4f4f4;
     }
     .container {
-      max-width: 800px;
+      max-width: 1000px;
       margin: auto;
       background: #fff;
       padding: 20px;
