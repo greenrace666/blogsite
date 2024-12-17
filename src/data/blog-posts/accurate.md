@@ -66,11 +66,13 @@ description: Chai1 on Modal H100
     <p>I was running into some issues with running the code and opened a <a href="https://github.com/greenrace666/chai1modal">PR</a> and corrected it. Now, you can easily run the code yourself by following the instructions in </p>
     <p><a href="https://github.com/greenrace666/chai1modal">https://github.com/greenrace666/chai1modal</a></p>
     <p>I’ve got a 1000 residue protein in under a minute!</p>
+    <p>Move around this structure , it's 3D 👇</p>
     <div id="viewport" style="width: 100%; height: 500px;"></div>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         var stage = new NGL.Stage("viewport");
         stage.loadFile("rcsb://3pjr", { defaultRepresentation: true });
+        stage.setParameters({ backgroundColor: "white" });
       });
     </script>
     

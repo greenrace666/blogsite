@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
+import img from "/public/assets/hi.avif"
 const title = 'Nikil Blogs';
 const description = 'Trying out blogging';
 const permalink = Astro.site.href;
@@ -15,7 +15,7 @@ const permalink = Astro.site.href;
       <div class="hero-image-container">
         <picture>
           <img 
-            src="/public/assets/hi.avif"
+            src={img}
             alt="HI letters using protein"
             class="hero-image"
             width="800"
