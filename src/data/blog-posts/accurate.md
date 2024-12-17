@@ -1,5 +1,5 @@
 ---
-title: Accurate
+title: Accurate All-Atom Stucture Prediction In Seconds
 publishDate: 17 Dec 2024
 description: Chai1 on Modal H100
 ---
@@ -60,7 +60,7 @@ description: Chai1 on Modal H100
     <p>And Modal Labs have implemented this model to run on their GPU architecture using simple, easy-to-use code.</p>
     <blockquote class="twitter-tweet" data-dnt="true" align="center"><p lang="en" dir="ltr">Folding proteins on Modal with <a href="https://twitter.com/chaidiscovery?ref_src=twsrc%5Etfw">@chaidiscovery</a> Chai-1.<br><br>Comprehensive guide with working code samples from the <a href="https://twitter.com/modal_labs?ref_src=twsrc%5Etfw">@modal_labs</a> team.<a href="https://t.co/IYSO7ppz4V">https://t.co/IYSO7ppz4V</a></p>&mdash; Joshua Meier (@joshim5) <a href="https://twitter.com/joshim5/status/1864688989321744777?ref_src=twsrc%5Etfw">December 5, 2024</a></blockquote>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <p>I was running into some issues with running the code and opened a PR and corrected it. Now, you can easily run the code yourself by following the instructions in </p>
+    <p>I was running into some issues with running the code and opened a <a href="https://github.com/greenrace666/chai1modal">PR</a> and corrected it. Now, you can easily run the code yourself by following the instructions in </p>
     <p><a href="https://github.com/greenrace666/chai1modal">https://github.com/greenrace666/chai1modal</a></p>
     <p>I’ve got a 1000 residue protein in under a minute!</p>
     <div id="viewport" style="width: 100%; height: 500px;"></div>
