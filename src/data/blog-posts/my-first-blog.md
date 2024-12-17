@@ -79,7 +79,8 @@ Thank you for joining me on this journey!
     <p>December 15, 2024</p>
     <p>Hi! First of all, welcome to my blog. I’m going to try to write blogs on this website since:</p>
     <blockquote>
-      <p>“Writing blogs … is cool I guess…” - Shakespeare, 1582 AD</p>
+      <p>“Writing blogs … is cool I guess…”</p>
+      <p>-Shakespeare, 1582 AD</p>
     </blockquote>
     <p>I do not have any particular aim and direction to lead this blog but I guess it will follow these themes:</p>
     <ul>
@@ -90,7 +91,7 @@ Thank you for joining me on this journey!
     </ul>
     <p>If you wish to know more regarding me professionally, visit my website: <a href="https://nikilkrishna.netlify.app">nikilkrishna.netlify.app</a></p>
     <p>Apart from the above interests, I also sometimes spend time in journalling, travel, drawing. Here is one I made:</p>
-    <div class="iframely-embed"> <div class="iframely-responsive" style="padding-bottom: 52.5%; padding-top: 120px;"> <a href="https://photos.google.com/share/AF1QipPyaHWLXn8Q7Zn-Chtaxx3WHrBRLZ1Zwg3NZhhoeEzwsf2IF8MIxJCDZ1N_AtC7ig?key=SDJRZzh3YXNLOVBDNEg4QVNjWHBDQWFyNkp4dXpR" data-iframely-url="//iframely.net/XKNxW8u"></a> </div> </div>
+    <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 100%; padding-top: 120px;"><a href="https://photos.google.com/share/AF1QipPyaHWLXn8Q7Zn-Chtaxx3WHrBRLZ1Zwg3NZhhoeEzwsf2IF8MIxJCDZ1N_AtC7ig?key=SDJRZzh3YXNLOVBDNEg4QVNjWHBDQWFyNkp4dXpR" data-iframely-url="//iframely.net/XKNxW8u"></a></div></div><script async src="//iframely.net/embed.js"></script>
     <p>Here is the youtube video</p>
     <iframe width="280" height="157" src="https://www.youtube.com/embed/videoseries?si=Zslxs3XqgKJsiIcW&amp;list=PLwLSw1_eDZl2XdtLhB9NG2Ch050jWFm9G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <p>And … I love South Indian food … Hail Idly gang!</p>
