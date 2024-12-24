@@ -13,7 +13,6 @@ tags:
   - all atom structure prediction
 description: Chai1 on Modal H100
 ---
-
 Pretty sure you must have heard of the news!
 
 <blockquote class="twitter-tweet" data-dnt="true" align="center">
@@ -39,7 +38,7 @@ The two guys on the right developed the AlphaFold2 model, an ML model that predi
 
 A more recent version released is AlphaFold3 with a diffusion model used. Many open-source versions of its implementation have been produced with the best one being:
 
-<blockquote class="twitter-tweet" data-dnt="true" align="center">
+<blockquote class="twitter-tweet" data-dnt="true" data-theme={themeValue} align="center">
     <p lang="en" dir="ltr">We're excited to introduce <a href="https://twitter.com/chaidiscovery?ref_src=twsrc%5Etfw">@ChaiDiscovery</a> and release Chai-1, a foundation model for molecular structure prediction that performs at the state-of-the-art across a variety of drug discovery tasks<br><br>We&#39;re releasing inference code, weights &amp; a web interface: <a href="https://t.co/QmpbVO9Fhd">https://t.co/QmpbVO9Fhd</a> <a href="https://t.co/TU7xuOAaIF">pic.twitter.com/TU7xuOAaIF</a></p>
     &mdash; Joshua Meier (@joshim5) <a href="https://twitter.com/joshim5/status/1833183091776721106?ref_src=twsrc%5Etfw">September 9, 2024</a>
 </blockquote>
