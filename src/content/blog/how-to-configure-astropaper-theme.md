@@ -167,3 +167,23 @@ linkTitle: `Follow ${SITE.title} on Twitter`;
 ## Conclusion
 
 This is the brief specification of how you can customize this theme. You can customize more if you know some coding. For customizing styles, please read [this article](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/). Thanks for reading.✌🏻
+
+<blockquote class="twitter-tweet" data-dnt="true" align="center"><p lang="en" dir="ltr">So excited to see more biology open-source models!<br><br>Chai by <a href="https://twitter.com/chaidiscovery?ref_src=twsrc%5Etfw">@chaidiscovery</a> does structure predictions at AlphaFold3 levels of accuracy and able to handle multi-peptide or peptide-ligand complexes rather than just single chains. <br><br>All in Apache 2.0 on Hugging Face:… <a href="https://t.co/EG1Udesyyq">pic.twitter.com/EG1Udesyyq</a></p>&mdash; clem 🤗 (@ClementDelangue) <a href="https://twitter.com/ClementDelangue/status/1864680192708341832?ref_src=twsrc%5Etfw">December 5, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div id="viewport" style="width:100%; height:400px;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/ngl@latest/dist/ngl.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var stage = new NGL.Stage("viewport");
+        stage.loadFile("rcsb://3pjr", { defaultRepresentation: true }).then(function (component) {
+            component.addRepresentation("ball+stick", { sele: "ligand" });
+            component.addRepresentation("ball+stick", { sele: "dna" });
+            stage.autoView();
+            stage.setParameters({ backgroundColor: "white" });
+        });
+    });
+</script>
+
