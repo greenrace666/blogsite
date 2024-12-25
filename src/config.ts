@@ -25,16 +25,16 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
-  svg: true,
-  width: 216,
-  height: 46,
+  enable: true,
+  svg: false,
+  width: 100,
+  height: 100,
 };
 
 export const SOCIALS: SocialObjects = [
   {
     name: "Mail",
-    href: "mailto:126010091@sastra.ac.in",
+    href: "mailto:126010091@sastra.ac.in",  
     linkTitle: `Send an email to Nikil`,
     active: true,
   },

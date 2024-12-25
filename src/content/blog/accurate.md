@@ -25,8 +25,8 @@ The two guys on the right developed the AlphaFold2 model, an ML model that predi
 
 <div align="center">
     <iframe 
-        width="560" 
-        height="315" 
+        width="100%" 
+        height="100%" 
         src="https://www.youtube.com/embed/7q8Uw3rmXyE?si=niucsme7Dnp-A3u7" 
         title="YouTube video player" 
         frameborder="0" 
@@ -76,3 +76,11 @@ Move around this structure, it's 3D 👇
         });
     });
 </script>
+$$
+\begin{aligned}
+\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \\
+\nabla \cdot \mathbf{B} &= 0 \\
+\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \\
+\nabla \times \mathbf{B} &= \mu_0\left(\mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
+\end{aligned}
+$$
