@@ -1,0 +1,1 @@
+{"rule":"PRP_RB_NO_VB","sentence":"^\\QWe majorly focus upon engineering biology biotechnology at University where calculations get involved a lot.\\E$"}
