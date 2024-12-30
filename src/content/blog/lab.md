@@ -1,13 +1,13 @@
 ---
 author: Nikil and Tharunika
 pubDatetime: 2024-12-30T14:42:16.000+05:30
-title: From Lab Bench to Life Lessons -A Slightly Less Boring Journey of Discovery
+title: From Lab Bench to Life Lessons - A Slightly Less Boring Journey of Discovery
 featured: false
 draft: false
 tags:
   - learning
   - biology
-description: Trying out dual author lol
+description: Our biology experience
 ---
 [Tharunika](https://in.linkedin.com/in/tharunika-g-b44329255) and I are going to start our **6th** semester in the coming days, so we thought it would be a good idea to explore a blog post where we would look back at our experience in biology and our personal learnings from it.
 
