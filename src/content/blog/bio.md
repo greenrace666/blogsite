@@ -31,7 +31,7 @@ Fascination 👉 Curiosity 👉 Questions 👉 Answers 👉 Application
 
 - Results are often not guarantied and takes much effort to implement. Yet biology plays a very major role in our modern day-to-day life. 
 - From bioinspired engineering solutions to vaccination, microbial products to food production, fixing climate change to synthetic evolution, we quite underestimate the impact of it in shaping our present world.
-- Hence, choosing biology, or any derivative of it, professionally would be a great choice if you are genuinely attracted to it. Many other useful traits mentioned in ___ would help you out a lot too.
+- Hence, choosing biology, or any derivative of it, professionally would be a great choice if you are genuinely attracted to it.
 
 So basically, **#welikebio**
 
