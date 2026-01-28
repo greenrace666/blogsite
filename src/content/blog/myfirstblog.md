@@ -43,6 +43,8 @@ My major favorite travel locations are:
 
 * Temples
 * Mountains
+* Temples on Mountains
+* Mountains on Temples
 * Monuments and caves
 * Nature, Rivers, Forests
 
