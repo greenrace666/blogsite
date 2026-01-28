@@ -93,6 +93,14 @@
     @apply bg-skin-card-muted;
   }
 
+  /* ===== Mermaid Diagrams ===== */
+  .mermaid {
+    @apply my-8 flex justify-center;
+  }
+  .mermaid svg {
+    @apply h-auto w-auto max-w-full;
+  }
+
   /* ===== Code Blocks & Syntax Highlighting ===== */
   pre:has(code) {
     @apply border border-skin-line;
