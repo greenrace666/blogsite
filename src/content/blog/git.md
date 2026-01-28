@@ -1,6 +1,6 @@
 ---
 author: Nikil
-pubDatetime: 2026-01-24T23:05:16.000+05:30
+pubDatetime: 2026-01-28T23:05:16.000+05:30
 title: How do you solve a problem ? And what can Github teach us about it
 featured: true
 draft: false
